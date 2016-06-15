@@ -1076,7 +1076,7 @@ function outputHelpIfNecessary(cmd, options) {
   for (var i = 0; i < options.length; i++) {
     if (options[i] == '--help' || options[i] == '-h') {
       cmd.outputHelp();
-      process.exit(0);
+      process.exit(1);
     }
   }
 }
