@@ -1127,7 +1127,7 @@ Command.prototype.helpInformation = function() {
     .concat(desc)
     .concat(options)
     .concat(cmds)
-    .join('\n');
+    .join('\n') + '\n'
 };
 
 /**
